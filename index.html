@@ -6,33 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="box">
-            <div class="home">
-                <nav class="navbar">
-                <ul>
-                    <li><a href="#" onclick="myfun(this)" class="mbutton">home</a></li>
-                    <li><a href="#" onclick="myfun(this)" class="mbutton">about</a></li>
-                    <li><a href="#" onclick="myfun(this)" class="mbutton">contact</a></li>
-                    <li><a href="#" onclick="myfun(this)" class="mbutton">service</a></li>
 
-                </ul>
-            </nav>
-            </div>
-            <div class="otherpages">
-                <div class="mservice ">service</div>
-                <div class="mcontact">contact</div>
-                <div class="mabout">about</div>
-                <div class="mhome">home</div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#myhome" onclick="myfun(this)" class="mbutton"><i class="fas fa-home"></i>home</a></li>
+            <li><a href="#" onclick="myfun(this)" class="mbutton"><i class="far fa-user"></i>about</a></li>
+            <li><a href="#" onclick="myfun(this)" class="mbutton"><i class="fas fa-phone"></i>contact</a></li>
+            <li><a href="#" onclick="myfun(this)" class="mbutton"><i class="fas fa-laptop-code"></i>service</a></li>
+
+        </ul>
+    </nav>
+    <section id="wrapper" class="skewed">
+        <div class="layer bottom">
+            <div class="contentwrap">
+                <div class="content-body">
+                    <h1>i'm</h1>
+                    <h2>Dilip</h2>
+                    <span>e</span>
+                    <span>v</span>
+                    <span>e</span>
+                    <span>l</span>
+                    <span>o</span>
+                    <span>p</span>
+                    <span>e</span>
+                    <span>r</span>
+                </div>
+                <img src="ph10.png" alt="" srcset="" class="myimg">
             </div>
         </div>
+        <div class="layer top">
+            <div class="contentwrap">
+                <div class="content-body">
+                    <h1>i'm</h1>
+                    <h2>Dilip</h2>
+                    <span>o</span>
+                    <span>n</span>
+                    <span>e</span>
+                    <span>.</span>
+                    <span>.</span>
+                    <span>.</span>
+                    <span>.</span>
+                    <span>.</span>
+                </div>
+                <img src="ph11.png" alt="" srcset="" class="myimg my2">
+            </div>
+        </div>
+        <div class="handle"></div>
+    </section>
 
-    </div>
-<script src="app.js"></script>
+    
+    <section class="about">
+        <div class="outer">
+            <div class="inner">
+                <div class="up">
+                    < about>
+                </div>
+                <div class="content">
+                    <div class="me mem">const Me=world.getPersonbyPersonName("Dilip");</div>
+                    <div class="me">Me.setAttribute("Education" , "Undergraduate");</div>
+                    <div class="me">Me.setAttribute("class" , "middle");</div>
+                    <div class="me">Me.setAttribute("I_m" , "[developer , freelancer , dilip]");</div>
+                    <div class="me">Me.setAttribute("intrest" , "[ web devlopement, coding , CP , DSA ]");</div>
+                </div>
+                <div class="down">
+                    < / about>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
 </body>
 
 </html>
