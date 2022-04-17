@@ -1,8 +1,8 @@
 let navbar=document.querySelector('.navbar');
-// window.addEventListener("click",function(){
-//     if(navbar.style.width==="150px")
-//     navbar.style.width="60px";
-// });
+window.addEventListener("click",function(){
+    if(navbar.style.width==="150px")
+    navbar.style.width="60px";
+});
 document.addEventListener('DOMContentLoaded',function(){
     let wrapper=document.querySelector('#wrapper');
     let toplayer =document.querySelector('.top');
@@ -18,3 +18,9 @@ document.addEventListener('DOMContentLoaded',function(){
           
       });
 });
+
+
+function myFunction() {
+      var copyText = document.querySelector(".mailid")
+      navigator.clipboard.writeText(copyText.innerText);
+}
